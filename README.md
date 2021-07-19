@@ -15,10 +15,10 @@ The module simply exports a simple function `getTF2PlayerItems`.
 ##### Example Usage
 
 ```typescript
-const steamid: string = ``;
-const steamAPIKey: string = ``; // your Steam API key
-const playerItems: TF2PlayerItemsSchema = await getTF2PlayerItems(steamid, steamAPIKey);
+const steamid: string = `76561198081082634`;
+const steamAPIKey: string = `abcdefghijk123456`; // your Steam API key
 
+const playerItems: TF2PlayerItemsSchema = await getTF2PlayerItems(steamid, steamAPIKey);
 ```
 
 ### The Schema
