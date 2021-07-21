@@ -3,7 +3,7 @@
 ### 📖 Table of Contents
 - [👋 Introduction](#-introduction)
 - [🔌 Getting Started](#-getting-started)
-    - [The Schema](#iteminstance)
+    - [The Schema](#the-schema)
 - [📚 Helpful Resources](#-helpful-resources)
 
 ## 👋 Introduction
