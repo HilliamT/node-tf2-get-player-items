@@ -3,6 +3,7 @@
 ### 📖 Table of Contents
 - [👋 Introduction](#-introduction)
 - [🔌 Getting Started](#-getting-started)
+    - [getTF2PlayerItems](#gettf2playeritems)
     - [The Schema](#the-schema)
 - [📚 Helpful Resources](#-helpful-resources)
 
@@ -10,11 +11,21 @@
 This module is a wrapper for the [`IEconItems/GetPlayerItems`](https://wiki.teamfortress.com/wiki/WebAPI/GetPlayerItems) API specific for a user's backpack. It allows you to get the items for a player, providing game-specific item information not normally provided within the other generic inventory APIs.
 
 ## 🔌 Getting Started
+You can install this module with npm within your project by running the command:
+
+```bash
+npm install tf2-get-player-items
+```
+
+### getTF2PlayerItems
+
 The module simply exports a simple function `getTF2PlayerItems`.
 
 ##### Example Usage
 
 ```typescript
+import { getTF2PlayerItems } from `tf2-get-player-items`;
+
 const steamid: string = `76561198081082634`;
 const steamAPIKey: string = `abcdefghijk123456`; // your Steam API key
 
